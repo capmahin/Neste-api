@@ -15,7 +15,7 @@ const searchFood = () =>{
        div.classList.add('col');
        div.innerHTML=`
        
-       <div onclick="loadMealDetail(${meal.id})" class ="class h-100">
+       <div onclick="loadMealDetail(${meal.idMeal})" class ="class h-100">
        <img src ="${meal.strMealThumb}" class = "card-img-top"
        alt="...">
        <div class ="card-body">
